@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/xuperchain/xvm/exec"
+	"github.com/oaow/openwasm/exec"
 )
 
 var resolver = exec.MapResolver(map[string]interface{}{

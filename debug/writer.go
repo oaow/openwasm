@@ -3,7 +3,7 @@ package debug
 import (
 	"io"
 
-	"github.com/xuperchain/xvm/exec"
+	"github.com/oaow/openwasm/exec"
 )
 
 const (

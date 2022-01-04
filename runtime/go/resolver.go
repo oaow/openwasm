@@ -3,7 +3,7 @@ package gowasm
 import (
 	"reflect"
 
-	"github.com/xuperchain/xvm/exec"
+	"github.com/oaow/openwasm/exec"
 )
 
 type resolver struct {

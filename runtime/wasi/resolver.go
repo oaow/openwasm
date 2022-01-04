@@ -1,6 +1,6 @@
 package wasi
 
-import "github.com/xuperchain/xvm/exec"
+import "github.com/oaow/openwasm/exec"
 
 var resolver = exec.MapResolver(map[string]interface{}{
 	"wasi_unstable.fd_prestat_get": func(ctx exec.Context, x, y uint32) uint32 {

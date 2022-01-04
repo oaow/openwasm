@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/xuperchain/xvm/compile"
-	"github.com/xuperchain/xvm/exec"
+	"github.com/oaow/openwasm/compile"
+	"github.com/oaow/openwasm/exec"
 )
 
 var (

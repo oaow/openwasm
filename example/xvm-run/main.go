@@ -11,12 +11,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/xuperchain/xvm/compile"
-	"github.com/xuperchain/xvm/debug"
-	"github.com/xuperchain/xvm/exec"
-	"github.com/xuperchain/xvm/runtime/emscripten"
-	gowasm "github.com/xuperchain/xvm/runtime/go"
-	"github.com/xuperchain/xvm/runtime/wasi"
+	"github.com/oaow/openwasm/compile"
+	"github.com/oaow/openwasm/debug"
+	"github.com/oaow/openwasm/exec"
+	"github.com/oaow/openwasm/runtime/emscripten"
+	gowasm "github.com/oaow/openwasm/runtime/go"
+	"github.com/oaow/openwasm/runtime/wasi"
 )
 
 var (

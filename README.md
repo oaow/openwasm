@@ -5,7 +5,7 @@ XuperVM 是 [XuperChain](https://xuper.baidu.com/n/ps/opensource) 旗下的高�
 ## 快速开始
 ### 构建
 ```shell script
-    git clone https://github.com/xuperchain/xvm.git
+    git clone https://github.com/oaow/openwasm.git
     cd xvm 
     make
     # 设置环境变量
@@ -30,8 +30,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/xuperchain/xvm/compile"
-	"github.com/xuperchain/xvm/exec"
+	"github.com/oaow/openwasm/compile"
+	"github.com/oaow/openwasm/exec"
 )
 
 func compileLibrary(wasmpath string) (string, error) {
@@ -90,16 +90,3 @@ func main() {
 
 更多的例子可以在 [example](example) 目录里查看
 
-
-## 参与贡献
-我们欢迎任何形式的贡献(新的功能/文档/Issue)，如果你想要为XuperVM 贡献代码，你需要
-1. 查看并签署[贡献者协议](https://cla-assistant.io/xuperchain/xvm)
-2. 查看 [代码提交指南](https://xuper.baidu.com/n/xuperdoc/contribution/pull_requests.html)
-3. 本地编辑文件
-4. 提交完整的 Pull Request
-
-## 联系我们
-商务合作，请Email：xchain-help@baidu.com, 来源请注明Github。
-如果你对XuperChain开源技术及应用感兴趣，欢迎添加“百度超级链·小助手“微信，回复“技术论坛进群”，加入“百度超级链开发者社区”，与百度资深工程师深度交流!微信二维码如下:
-
-![微信二维码](https://github.com/ToWorld/xuperchain-image/blob/master/baidu-image-xuperchain.png)

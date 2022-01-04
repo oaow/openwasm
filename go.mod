@@ -1,4 +1,4 @@
-module github.com/xuperchain/xvm
+module github.com/oaow/openwasm
 
 go 1.15
 

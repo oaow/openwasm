@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/xuperchain/xvm/compile"
+	"github.com/oaow/openwasm/compile"
 )
 
 func withInterpCode(t testing.TB, watCode string, r Resolver, f func(code *InterpCode)) {
