@@ -97,4 +97,4 @@ OpenWASM  针对非 Web 场景的高性能应用领域设计,采用预编译技�
 
 ![alt 性能对比](performance.png "不同 WASM 引擎执行性能")
 
-OpenWASM 性能远优于 JIT 和解释执行模式的其他引擎，也由于其他预编译的执行引擎 
+OpenWASM 性能远优于 JIT 和解释执行模式的其他引擎，也优于其他预编译的执行引擎 
