@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/xuperchain/xvm/compile"
-	"github.com/xuperchain/xvm/exec"
+	"github.com/oaow/openwasm/compile"
+	"github.com/oaow/openwasm/exec"
 )
 
 func compileLibrary(wasmpath string) (string, error) {

@@ -6,8 +6,8 @@ import (
 	"math"
 	"unsafe"
 
-	"github.com/xuperchain/xvm/debug"
-	"github.com/xuperchain/xvm/exec"
+	"github.com/oaow/openwasm/debug"
+	"github.com/oaow/openwasm/exec"
 )
 
 const (

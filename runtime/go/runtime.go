@@ -3,10 +3,10 @@ package gowasm
 import (
 	"time"
 
-	"github.com/xuperchain/xvm/debug"
-	"github.com/xuperchain/xvm/exec"
-	"github.com/xuperchain/xvm/runtime/go/js"
-	"github.com/xuperchain/xvm/runtime/go/js/fs"
+	"github.com/oaow/openwasm/debug"
+	"github.com/oaow/openwasm/exec"
+	"github.com/oaow/openwasm/runtime/go/js"
+	"github.com/oaow/openwasm/runtime/go/js/fs"
 )
 
 const (

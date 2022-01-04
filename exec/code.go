@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/xuperchain/xvm/pointer"
+	"github.com/oaow/openwasm/pointer"
 )
 
 // Code represents the wasm code object
