@@ -1,6 +1,6 @@
-# XuperVM
+# OpenWASM
 
-XuperVM 是 [XuperChain](https://xuper.baidu.com/n/ps/opensource) 旗下的高性能 WebAssembly 虚拟机，采用 AOT 编译技术，支持资源审计与资源限制，原生支持 Golang 运行时
+OpenWASM 是 [XuperChain](https://xuper.baidu.com/n/ps/opensource) 旗下的高性能 WebAssembly 虚拟机，采用 AOT 编译技术，支持资源审计与资源限制，原生支持 Golang 运行时
 
 ## 快速开始
 ### 构建
